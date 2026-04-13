@@ -12,4 +12,6 @@ For optimal usage add the program to your PATH.
 
 `charcounter -h` or `charcounter --help` for help.
 
-`charcounter 123456789` prints the result or `charcounter -c 1 111111111` prints the number of occurencies of given character after `-c`.
+`charcounter 123456789` prints the result of given string 
+
+or `charcounter -c 1 111111111` prints the number of occurencies of given character after `-c`.
