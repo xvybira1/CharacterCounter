@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
     if (argc == 2) {
         printf("Counted %d characters.\n", count_characters(argv[1]));
 
-    } else if (argc == 4 && strcmp(argv[1], "-c") == 0) {
+    } else if (argc == 4 && ((strcmp(argv[1], "-c") == 0 ) || (strcmp(argv[1], "-character") == 0))) {
         int count = count_specific_character(argv[3], argv[2][0]);
         printf("Counted %d occurrences of '%c'. Total characters: %d\n", count, argv[2][0], count_characters(argv[3]));
     
