@@ -22,6 +22,7 @@ void print_help() {
     printf("    charcounter \"Hello, World!\"\n");
     printf("To count specific characters, use:\n");
     printf("    charcounter -c <character> <string>\n");
+    printf("    charcounter -character <character> <string>\n");
 }
 
 int main(int argc, char *argv[]) {
