@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 
     } else if (argc == 4 && strcmp(argv[1], "-c") == 0) {
         int count = count_specific_character(argv[3], argv[2][0]);
-        printf("Counted %d occurrences of '%c'.\n", count, argv[2][0]);
+        printf("Counted %d occurrences of '%c'. Total characters: %d\n", count, argv[2][0], count_characters(argv[3]));
     
     } else {
         printf("Invalid arguments. Use charcounter -h for help.\n");
